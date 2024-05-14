@@ -1,7 +1,5 @@
 from django.db import models
 
-from django.db import models
-
 
 class Currency(models.Model):
     char_code = models.CharField(max_length=10, unique=True)
